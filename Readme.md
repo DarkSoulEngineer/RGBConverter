@@ -5,9 +5,11 @@
 This Python script performs color space transformations between the **RGB** and **CIE XYZ** color spaces. Using the **Pillow** library, it processes an input image, applies transformations using the provided matrices, and outputs intermediate results for analysis.
 
 Find more information about RGB-XYZ space conversion on : 
+
 '''
 https://en.wikipedia.org/wiki/CIE_1931_color_space#CIE_RGB_color_space
 '''
+
 ## Usage
 
 Before running the script, make sure you have the following installed:
