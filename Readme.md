@@ -1,14 +1,37 @@
 # RGB-to-XYZ Image Conversion Script
 
-## Overview
-
 This Python script performs color space transformations between the **RGB** and **CIE XYZ** color spaces. Using the **Pillow** library, it processes an input image, applies transformations using the provided matrices, and outputs intermediate results for analysis.
 
 Find more information about RGB-XYZ space conversion on : 
 
-'''
-https://en.wikipedia.org/wiki/CIE_1931_color_space#CIE_RGB_color_space
-'''
+# Table of Contents
+
+1. **[Introduction](#introduction)**
+   - Overview of RGB-to-XYZ Image Conversion Script
+
+2. **[Usage](#usage)**
+   - Prerequisites
+   - Running the Script
+     - Cloning the Repository
+     - Installing Required Packages
+     - Navigating to the Project Directory
+     - Running the Script
+
+3. **[Matrix Formulas](#matrix-formulas)**
+   - RGB to XYZ Transformation Matrix
+   - XYZ to RGB Transformation Matrix
+
+4. **[Input/Output Files](#inputoutput-files)**
+   - Input File
+     - parrots.bmp
+   - Output Files
+     - original_rgb.txt
+     - rgb2xyz.txt
+     - xyz2rgb.txt
+     - xyz2rgb.jpg
+
+5. **[References](#references)**
+   - Further Reading on RGB-XYZ Space Conversion [Wikipedia Link](https://en.wikipedia.org/wiki/CIE_1931_color_space#CIE_RGB_color_space)
 
 ## Usage
 
