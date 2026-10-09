@@ -71,7 +71,7 @@ XYZ to RGB transformation matrix (CIE RGB, as defined in `main.py`):
 The script takes an input image file and outputs the following files:
 
 Input:
-- `parrots.bmp` — sample image included in the repository
+- `parrots.bmp`: sample image included in the repository
 
 Output:
 - `original_rgb.txt`   # Pixel values of individual RGB channels
@@ -81,4 +81,4 @@ Output:
 
 ## License
 
-GPL-3.0 — see [LICENSE](LICENSE).
+GPL-3.0. See [LICENSE](LICENSE).
